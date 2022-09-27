@@ -1,5 +1,0 @@
-Action Item:
-	1. 首页搜索hashtag的topic
-	2. Related Topic
-	3. KG signal UI的admin页面展示
-	4. Find more DEMO cases
