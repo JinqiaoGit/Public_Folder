@@ -1,0 +1,27 @@
+一、数据分析
+	范围：全局、实体级别
+	1. 长度分析（句子及实体）
+		最大长度、最小长度、平均长度、方差
+	2. 词频分析（实体）
+	3. 标签校验（位置重复）
+	4. 不同数据集（trainset/testset）的分析（PSI）
+
+二、模型分析
+	1. 训练参数
+		超参数：batch size, learning rate, padding size, optimizer, dropout, etc.
+		对比调参训练结果: TBD
+	2. 模型性能评估（全局及实体级别）
+		A. F1 score: Precision, Recall, Accuracy, Specificity
+		B. ROC-AUC score
+		C. Confusion Metrics
+		D. 错误结果分析：错误样例所在文章、多个单词的词组预测统计
+		E. 单元测试（API级别：完整流程测试、性能测试）
+
+三、模型调试
+	1. 数据集修正
+		A. 基于规则的修正及检查
+		B. 构建Golden Dataset
+	2. 模型改进
+		A. Model size
+		B. Model structure
+		C. preprocess & postprocess
